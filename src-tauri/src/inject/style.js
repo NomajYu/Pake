@@ -31,17 +31,21 @@ window.addEventListener('DOMContentLoaded', _event => {
 
 .bg-\[\#f5f5f5\] {
     --tw-bg-opacity: unset!important;
-    background-color: #FFFAFA!important;
+    background-color: #FFFAFA !important;
 }
 
 .flex.flex-wrap> div:nth-of-type(5) {
-  display: none!important;
+  display: none !important;
+}
+
+.flex.flex-wrap> div:nth-of-type(6) {
+  margin-left:0 !important;
 }
 
 
 
 .flex-auto.flex.items-center > div:nth-of-type(2) {
-    display: none!important;
+    display: none !important;
 }
 
 
