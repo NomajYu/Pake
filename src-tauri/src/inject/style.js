@@ -25,6 +25,27 @@ window.addEventListener('DOMContentLoaded', _event => {
       display: none !important;
     }
 
+    body {
+  background-color: #FFFAFA !important;
+}
+
+.bg-\[\#f5f5f5\] {
+    --tw-bg-opacity: unset!important;
+    background-color: #FFFAFA!important;
+}
+
+.flex.flex-wrap> div:nth-of-type(5) {
+  display: none!important;
+}
+
+
+
+.flex-auto.flex.items-center > div:nth-of-type(2) {
+    display: none!important;
+}
+
+
+
     #app > header .right .avatar.logged-in{
       opacity: 0;
       transition: opacity 0.3s;
